@@ -1,0 +1,34 @@
+# Derleme çıktıları (kurulum dosyası GitHub Releases'a yüklenir, depoya değil)
+build/
+dist/
+*.spec
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# build.bat'ın indirdiği üçüncü parti programlar
+exiftool.exe
+exiftool(-k).exe
+exiftool_files/
+exiftool-*.zip
+_exiftool_tmp/
+
+# Kişisel fotoğraflar, deneme çıktıları ve raporlar (asla yüklenmesin)
+test/
+test_sonuc*/
+test_onizleme_raporu*.csv
+test_karsilastirma_raporu.md
+rapor_*.csv
+report_*.csv
+_islem_gecmisi/
+*.zip
+*.tgz
+
+# test çıktısı (her çalıştırmada yeniden yazılır)
+tests/test_raporu.md
+
+# sistem dosyaları
+Thumbs.db
+desktop.ini
+.DS_Store
